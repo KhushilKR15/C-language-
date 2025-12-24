@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int is_prime(int n) {
     if (n <= 1) return 0;
     if (n <= 3) return 1;
@@ -11,17 +10,14 @@ int is_prime(int n) {
     }
     return 1;
 }
-
 int main() {
     int num;
     printf("Enter a positive integer: ");
     if (scanf("%d", &num) != 1) return 1;
-
     if (is_prime(num)) {
         printf("%d is a prime number.\n", num);
     } else {
         printf("%d is not a prime number.\n", num);
     }
-
     return 0;
 }
