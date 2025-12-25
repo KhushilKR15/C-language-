@@ -14,9 +14,12 @@ int main() {
     printf("\nORIGINAL: %s", copy);
     printf("\nREVERSED: %s", str);
 
-    if (strcmp(copy, str) == 0) {
+    if (strcmp(copy, str) == 0) 
+    {
         printf("\n\nTHE GIVEN INPUT IS A PALINDROME\n");
-    } else {
+    } 
+    else 
+    {
         printf("\n\nTHE GIVEN INPUT IS NOT A PALINDROME\n");
     }
 
